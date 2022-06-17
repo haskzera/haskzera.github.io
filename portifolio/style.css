@@ -4,7 +4,7 @@ body{
 
 .bg{
     background-image: url("./imagens/background.jpg");
-    min-height: 90%;
+    min-height: 40%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -19,8 +19,14 @@ body{
     text-align: center;
     transform: translate(-50%, -50%);
     position: absolute;
-    top: 40%;
+    top: 20%;
     left: 50%;
+}
+
+.title{
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 200%;
+    text-align: left;
 }
 
 .navbar{
@@ -55,8 +61,10 @@ body{
 
 .text{
     font-family: "Lucida Console", "Courier New", monospace;
+    font-size: larger;
     margin-left: 3%;
-    margin-top: 2%;
+    margin-right: 2%;
+    margin-top: 1%;
 }
 
 img{
