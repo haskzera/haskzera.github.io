@@ -1,0 +1,45 @@
+body{
+    height: 60%;
+    margin: 0%;
+}
+
+.bg{
+    background-image: url("./imagens/background.jpg");
+    min-height: 60%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titulo{
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 600%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 18%;
+}
+
+.navbar{
+    overflow: hidden;
+    background-color: rgb(46, 44, 45);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    opacity: 80%;
+}
+
+.navbar a{
+    font-family: "Lucida Console", "Courier New", monospace;
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 1.25% 2%;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    background: #ddd;
+    color: black;
+}
